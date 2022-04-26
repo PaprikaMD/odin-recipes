@@ -13,14 +13,17 @@ h1{
 }
 
 ol{
+    display:flex;
     padding: 10px;
     list-style-type:square;
-    width: 25%;
+    justify-content:center;
+
     /*Centers the list*/
-    margin: 0 auto;
 }
 
 li{
+    display:flex;
+    flex-direction: column;
     text-align:center;
     list-style-type:lower-greek;
     font-weight:bold;
@@ -31,6 +34,11 @@ li{
     border-style:inset;
     margin:3px;
     padding:10px;
-    width:max-content;
     background-color:cornflowerblue;
+    width:300px;
+}
+
+img{
+    height:auto;
+    width:300px;
 }
